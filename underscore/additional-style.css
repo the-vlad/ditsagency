@@ -1,0 +1,32 @@
+body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+.navbar-brand > .navbar-item {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+#navbarMain ul {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  height: 100%;
+}
+
+#navbarMain li > a {
+  padding: 8px 16px;
+  display: flex;
+  color: hsl(var(--bulma-navbar-h),var(--bulma-navbar-s),var(--bulma-navbar-item-color-l));
+}
+
+#navbarMain li > a:hover {
+  background-color: var(--bulma-text-light);
+}
